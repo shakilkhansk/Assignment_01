@@ -39,7 +39,7 @@ class Car {
     return year;
   }
 
-  // Method to calculate and return the age of the car
+  // Method to calculate and return age
   int getAge() {
     int currentYear = DateTime.now().year;
     return currentYear - year;
